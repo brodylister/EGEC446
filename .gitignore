@@ -1,0 +1,21 @@
+# Vivado GUI and Compilation Artifacts
+*.log
+*.jou
+*.str
+*.os
+.Xil/
+vivado*.backup.xml
+
+# Local User Settings and History
+*.hw/
+*.cache/
+*.ip_user_files/
+*.sim/
+*.runs/
+
+# Project Binary Outputs (unless specifically needed for distribution)
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
