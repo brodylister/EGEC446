@@ -1,0 +1,36 @@
+// stimulus for lab 3: 4 bit ALU.
+// inputs A and B are four bits each
+// {A, B} for each test case (8 bits total), separated by new lines.
+// 2 test cases for each (2 lines), then Op increments.
+
+// op 0: and
+0000_1111
+0101_0011
+
+// op 1 : or
+0000_1111
+0101_0011
+
+// op 2: xor
+0000_1111
+0101_0011
+
+// op 3: add
+1111_0000
+0111_0001
+
+// op 4: sub
+1111_0000
+0111_0001
+
+// op 5: lsl 1 bit (B not used)
+0001_0000
+1111_0000
+
+// op 6: lsr 1 bit (B not used)
+1000_0000
+1111_0000
+
+// op 7: return B (A not used)
+0000_0000
+0000_1111
