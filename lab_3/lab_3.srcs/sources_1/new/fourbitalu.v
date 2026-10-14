@@ -29,14 +29,14 @@ module fourbitalu(
     
     always @(*) begin
         case (Op)
-            000: Y = A & B;
-            001: Y = A | B;
-            010: Y = A ^ B;
-            011: Y = A + B;
-            100: Y = A - B;
-            101: Y = A << 1;
-            110: Y = A >> 1;
-            111: Y = B;
+            3'b000: Y = A & B;
+            3'b001: Y = A | B;
+            3'b010: Y = A ^ B;
+            3'b011: Y = A + B;
+            3'b100: Y = A - B;
+            3'b101: Y = A << 1;
+            3'b110: Y = A >> 1;
+            3'b111: Y = B;
             default: Y = 0000;
         endcase
     end
