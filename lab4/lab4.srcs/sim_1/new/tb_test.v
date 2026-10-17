@@ -54,7 +54,7 @@ module tb_test();
         // asynch reset;
         #10 D <= 1;
         #5 RESET <= 1;
-        #5 RESET <= 0;
+        #10 RESET <= 0;
         
         #10;
         $finish;
